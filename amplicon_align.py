@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import argparse
 import sys
-from magnumopus.ispcr import *
-from magnumopus.nw import *
+from magnumopus import ispcr
+from magnumopus import nw
 
 def parse_args():
     parser = argparse.ArgumentParser(
